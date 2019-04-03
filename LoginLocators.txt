@@ -1,0 +1,3 @@
+loginButton    //input[@id="user-name"]
+userInput    //input[@id="user-name"]
+passInput    //input[@class="btn_action"]
