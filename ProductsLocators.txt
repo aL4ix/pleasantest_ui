@@ -1,2 +1,3 @@
 addToCartButton    //div[text()="${productName}"]/../../..//button
 shoppingCartButton    //a[contains(class, "shopping_cart_link")]
+titleLabel    //div[@class="product_label"]
