@@ -1,0 +1,14 @@
+Library  UI
+Resource  LoginLocators.txt
+Import  ProductsPage.txt
+
+Login Page
+    Open Page  https://www.saucedemo.com/
+    Element Exists  loginButton
+
+Login
+    [Arguments]  userName  password
+    Enter Text  userInput  userName
+    Enter Text  passInput  password
+    Click  loginButton
+    Return  ProductsPage
