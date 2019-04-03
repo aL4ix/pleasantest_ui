@@ -7,8 +7,8 @@ Login Page
     Validate Element Exists  ${loginButton}
 
 Login
-    [Arguments]  ${userName}  password
-    Enter Text  ${userInput}  userName
-    Enter Text  ${passInput}  password
+    [Arguments]  ${userName}  ${password}
+    Enter Text  ${userInput}  ${userName}
+    Enter Text  ${passInput}  ${password}
     Click  ${loginButton}
     Return  ProductsPage
