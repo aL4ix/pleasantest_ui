@@ -1,0 +1,12 @@
+Resource  ProductsLocators.txt
+Library  UI
+Import  CartPage.txt
+
+Products Page
+    Verify Element Exists  ${titleLabel}
+    
+Select Product
+    [Arguments]  productName
+    Click  !{addToCartButton}
+    Click  ${shoppingCartButton}
+    Return  CartPage
