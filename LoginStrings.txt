@@ -1,1 +1,1 @@
-passwordText  secret_sauce
+passwordString  secret_sauce
