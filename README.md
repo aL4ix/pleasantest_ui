@@ -24,3 +24,11 @@ DDT with data generation
 * Actions take a screenshot after each action (UI)
 * Take into account DDT with data generation for the future.
 * Keywords? For, While, Return
+
+
+Locator file example
+---
+userTextField    //input[@id=userField]
+loginButton    //button[@id=login]
+acceptTerms  button  //span[@id=terms]
+myFlight  button  //span[@id=flight${flightNumber}]
