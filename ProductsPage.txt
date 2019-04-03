@@ -6,7 +6,7 @@ Products Page
     Verify Element Exists  ${titleLabel}
     
 Select Product
-    [Arguments]  productName
-    Click  !{addToCartButton}
+    [Arguments]  ${productName}
+    Click  !{addToCartButton}  # Expand this variable here, so a temporary copy with the variables expanded would be send to the action
     Click  ${shoppingCartButton}
     Return  CartPage
