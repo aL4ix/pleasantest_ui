@@ -26,9 +26,4 @@ DDT with data generation
 * Keywords? For, While, Return
 
 
-Locator file example
----
-userTextField    //input[@id=userField]
-loginButton    //button[@id=login]
-acceptTerms  button  //span[@id=terms]
-myFlight  button  //span[@id=flight${flightNumber}]
+Check TestSuite.txt for an example
