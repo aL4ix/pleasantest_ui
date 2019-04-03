@@ -4,11 +4,11 @@ Import  ProductsPage.txt
 
 Login Page
     Open Page  https://www.saucedemo.com/
-    Validate Element Exists  loginButton
+    Validate Element Exists  ${loginButton}
 
 Login
-    [Arguments]  userName  password
-    Enter Text  userInput  userName
-    Enter Text  passInput  password
-    Click  loginButton
+    [Arguments]  ${userName}  password
+    Enter Text  ${userInput}  userName
+    Enter Text  ${passInput}  password
+    Click  ${loginButton}
     Return  ProductsPage
