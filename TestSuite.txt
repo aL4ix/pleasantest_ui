@@ -1,0 +1,7 @@
+Import    LoginPage.txt
+Resource    LoginStrings.txt
+
+Buy A Product
+    ${loginPage}=    LoginPage
+    ${productsPage}=    loginPage.Login    standard_user    ${passwordString}
+    ${cartPage}=    productsPage.Select Product    Sauce Labs Backpack
