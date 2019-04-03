@@ -1,3 +1,4 @@
-addToCartButton    //div[text()="${productName}"]/../../..//button
-shoppingCartButton    //a[contains(class, "shopping_cart_link")]
+addToCartButton    //div[text()="!{productName}"]/../../..//button  # Example of a variable that would be expanded later
+shoppingCartClass    shopping_cart_link
+shoppingCartButton    //a[contains(class, "${shoppingCartClass}")]  # Example of a variable that would be expanded now, at creation time
 titleLabel    //div[@class="product_label"]
